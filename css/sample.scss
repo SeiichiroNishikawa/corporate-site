@@ -504,7 +504,7 @@ footer{
   // max-width: 550px
   
   h1{
-  margin: 0;
+//  margin: 0;
   padding: 0;
 }
 
@@ -716,11 +716,7 @@ h2 {
     line-height: 1.25;
     letter-spacing: -.1rem;
 }
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 2rem;
-    font-weight: 300;
-}
+
 h2 {
     display: block;
     font-size: 1.5em;
@@ -771,7 +767,7 @@ h3 {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     font-weight: 300;
 }
 
@@ -824,3 +820,13 @@ li {
 #contents {
     padding-top: 20px;
 }
+
+
+
+//ここから修正
+
+#contents #main .news_li li {
+    list-style: none;
+}
+
+//770行目を修正 0に変更
