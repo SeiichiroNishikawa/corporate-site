@@ -23,8 +23,8 @@ header{
   background: $gray_blue;
 
   #header_in{
-    padding-top: 10px;
-    padding-bottom:4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   @media (max-width: 550px) {
@@ -400,7 +400,7 @@ footer{
     }
 
     #header_in{
-      padding: 15px 0 10px 0;
+      padding: 10px 0 4px 0;
     }
 
     .pc_navi_li{
@@ -605,22 +605,6 @@ h2 {
     letter-spacing: -.1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 2rem;
-    font-weight: 300;
-}
-
-h2 {
-    display: block;
-    font-size: 1.5em;
-    -webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
-}
-
 body {
     font-size: 1.5em;
     line-height: 1.6;
@@ -765,11 +749,6 @@ h3 {
     letter-spacing: -.1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 300;
-}
 
 h3 {
     display: block;
@@ -830,3 +809,64 @@ li {
 }
 
 //770行目を修正 0に変更
+
+//2回目修正
+
+//26行目 10pxから15px
+//27行目 padding-bottom 4pxから10pxに変更
+//403行目 10px 4pxに修正
+
+
+#sub_cover h2 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 0.2rem;
+}
+h2 {
+    font-size: 3.6rem;
+    line-height: 1.25;
+    letter-spacing: -.1rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+
+header #header_in {
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+@media (min-width: 400px){
+.container {
+    width: 85%;
+    padding: 0;
+}}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+
+
